@@ -10,4 +10,8 @@ class ImageModel {
     url = parsedJson['url'];
     title = parsedJson['title'];
   }
+
+  toString() {
+    return "$id $url";
+  }
 }
